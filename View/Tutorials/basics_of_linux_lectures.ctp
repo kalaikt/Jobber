@@ -1,0 +1,78 @@
+<section class="col-xs-12 fundamentalmain">
+			<div class="container">
+				
+				<div class="col-xs-12 lab-details">
+					<table>
+						<tr>
+							<th>S No.</th>
+							<th style="width: auto">Topic</th>
+							<th>Lecture Notes</th>
+							<th>Lab</th>
+						</tr>
+						<tr>
+							<td>1.</td>
+							<td>Physical Storages</td>
+							<td><?php echo $this->Html->link('1','/tutorials/lecture/1/1'); ?> <?php echo $this->Html->link('2','/tutorials/lecturere/1'); ?></td>
+							<td><?php echo $this->Html->link('1: Enter','/tutorials/labs/physicalstorages'); ?></td>
+							
+						</tr>
+						<tr>
+							<td>2.</td>
+							<td>Introduction to Hardware Virtualization</td>
+							<td>-</td>
+							<td>In Class</td>
+						</tr>
+						<tr>
+							<td>3.</td>
+							<td>Graphical Installation of Linux</td>
+							<td>-</td>
+							<td>In Class</td>
+						</tr>
+						<tr>
+							<td>4.</td>
+							<td>File Access, Management and Security</td>
+							<td><?php echo $this->Html->link('1','/tutorials/lecture/1/3'); ?> <?php echo $this->Html->link('2','/tutorials/lecturere/3'); ?></td>
+							<td><?php echo $this->Html->link('3: Enter','/tutorials/labs/filemanagement'); ?></td>
+						</tr>
+						<tr>
+							<td>5.</td>
+							<td>Introduction to Command Line</td>
+							<td><?php echo $this->Html->link('1','/tutorials/lecture/1/4'); ?> <?php echo $this->Html->link('2','/tutorials/lecturere/4'); ?></td>
+							<td><?php echo $this->Html->link('4: Enter','/tutorials/labs/filemanagement'); ?></td>
+						</tr>
+						<tr>
+							<td>6.</td>
+							<td>Introduction to Linux Users and Groups</td>
+							<td><?php echo $this->Html->link('1','/tutorials/lecture/1/5'); ?> <?php echo $this->Html->link('2','/tutorials/lecturere/5'); ?></td>
+							<td><?php echo $this->Html->link('5: Enter','/tutorials/labs/users_and_groups'); ?></td>
+						</tr>
+						<tr>
+							<td>7.</td>
+							<td>Introduction to scripting</td>
+							<td><?php echo $this->Html->link('1','/tutorials/lecture/1/6'); ?> <?php echo $this->Html->link('2','/tutorials/lecturere/6'); ?></td>
+							<td><?php echo $this->Html->link('6: Enter','/tutorials/labs/scripting'); ?></td>
+						</tr>
+						<tr>
+							<td>8.</td>
+							<td>Establishing Network and Network Services</td>
+							<td><?php echo $this->Html->link('1','/tutorials/lecture/1/7'); ?> <?php echo $this->Html->link('2','/tutorials/lecturere/7'); ?></td>
+							<td><?php echo $this->Html->link('7: Enter','/tutorials/labs/networking_basics'); ?></td>
+						</tr>
+						<tr>
+							<td>9.</td>
+							<td>Deploying Webserver Components and Configuration</td>
+							<td><?php echo $this->Html->link('1','/tutorials/lecture/1/8'); ?> <?php echo $this->Html->link('2','/tutorials/lecturere/8'); ?></td>
+							<td><?php echo $this->Html->link('8: Enter','/tutorials/labs/web_server_setup'); ?></td>
+						</tr>
+						<tr>
+							<td>10.</td>
+							<td>Installation of Local Components and Services</td>
+							<td><?php echo $this->Html->link('1','/tutorials/lecture/1/9'); ?> <?php echo $this->Html->link('2','/tutorials/lecturere/9'); ?></td>
+							<td><?php echo $this->Html->link('9: Enter','/tutorials/labs/local_component_installation'); ?></td>
+						</tr>
+						</table>
+				</div>
+				
+     		     
+			</div>
+		</section>
